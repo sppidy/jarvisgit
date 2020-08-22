@@ -21,7 +21,7 @@ if ENV:
     PROJECT_NAME = environ.get('PROJECT_NAME', None)
     ip_addr = environ.get('APP_URL', None)
     # You kanged our project without forking it, we'll get you DMCA'd.
-    GIT_REPO_URL = environ.get('GIT_REPO_URL', "https://github.com/MadeByThePinsHub/GitGram")
+    GIT_REPO_URL = environ.get('GIT_REPO_URL', "https://github.com/jarvis210904/jarvisgit")
 else:
     BOT_TOKEN = config.BOT_TOKEN
     PROJECT_NAME = config.PROJECT_NAME
@@ -64,7 +64,7 @@ def source(_bot, update):
     """Link to Source"""
     message = update.effective_message
     message.reply_text(
-        f"*Source*:\n[GitGram Repo](https://waa.ai/GitGram).",
+        f"*Source*:\n[No Repo].",
         parse_mode="markdown"
     )
 
